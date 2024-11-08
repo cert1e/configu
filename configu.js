@@ -41,6 +41,12 @@ fs.writeFile('index.html', `<head><title>${config["config_name"]}</title><style>
             console.error(`FS_ERROR: ${nuh}`)
         }
     })
+} else if (config.format == "DNS") {
+    fs.writeFile('index.html', `<head>\n<title>${config["config_name"]}</title>\n<style>body  { font-family: "Arial"; }</style>\n</head>\n<body>\n<h1>DNS config index</h1><h3>You're using Dynamic System Format. Here's a list of things you can do:</body>\n<li>Optional dynamic.js</li>\n<li>Experiments</li>\n<h6 style="text-align: right;">Alpha Version</h6>`, (nuh) => {
+        if (nuh) {
+            console.error(`FS_ERROR: ${nuh}`)
+        }
+    })
 }
 console.log("Created successfully")
 console.info("INF Delete the file after each use to not cause any conflicts (like force rewrite) and save space")
