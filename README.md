@@ -28,4 +28,4 @@ You only get configu through here, no other way around, sadly :c
 configu was written during the newer node versions (22.9.0), so I recommend getting that version.
 You will need to get nullbyte.js for the NullByte System format
 This is under the MIT license. View LICENSE.md
-If you need to, you can visit bit.ly/certiesweb/tutorials/modding.html to start learning how to mod!
+If you need to, you can visit bit.ly/certiesweb_/tutorials/modding.html to start learning how to mod!
